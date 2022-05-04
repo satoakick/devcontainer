@@ -1,0 +1,15 @@
+{
+    "name": "dev-container",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "args": {
+        "USERNAME": "${localEnv:USER}",
+        "USER_UID": "1000",
+      }
+    },
+    "workspaceFolder": "${localEnv:HOME}",
+    "workspaceMount": "source=${localWorkspaceFolder},dst=${localEnv:HOME},type=bind",
+    "postStartCommand": "${localEnv:HOME}/.devcontainer/post_start_command.sh"
+    // "extensions": [],
+    // "forwardPorts": [],
+}
