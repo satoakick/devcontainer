@@ -1,1 +1,5 @@
 /powerlevel10k
+.wget-hsts
+.cache
+.vscode-server
+.zcompdump
