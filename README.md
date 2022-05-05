@@ -1,8 +1,9 @@
 # devcontainer
-This repo was made for remote container in vscode when you need to make development environment.  
+This repo was made for remote container in WSL2 when you need to make development environment.  
 For details, see [this](https://code.visualstudio.com/docs/remote/containers).  
 
 # How to use
+- Assuming that you use vscode in WSL2.
 - Change directory where you want to locate `.devcontainer`  
   `cd want-to-locate-dot-devcontainer`
 - Execute `git clone`  
