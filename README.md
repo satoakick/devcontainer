@@ -1,6 +1,6 @@
 # devcontainer
 This repo was made for remote container in WSL2 when you need to make development environment.  
-For details, see [this](https://code.visualstudio.com/docs/remote/containers).  
+For details about remote container, see [this](https://code.visualstudio.com/docs/remote/containers).  
 
 # How to use
 - Assuming that you use vscode in WSL2.
