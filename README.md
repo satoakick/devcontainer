@@ -14,4 +14,4 @@ For details about remote container, see [this](https://code.visualstudio.com/doc
 # dependencies
 - [zsh](https://zsh.sourceforge.io/)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-- [lsd](https://crates.io/crates/lsd) in `postStartCommand`
+- [lsd](https://crates.io/crates/lsd)
