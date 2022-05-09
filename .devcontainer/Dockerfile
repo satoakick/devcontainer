@@ -2,9 +2,12 @@ FROM ubuntu:focal
 
 RUN apt update && \
     apt install -y zsh \
-    curl \
-    wget \
-    git
+      curl \
+      wget \
+      git && \
+    wget https://github.com/Peltoche/lsd/releases/download/0.21.0/lsd_0.21.0_amd64.deb && \
+    dpkg -i lsd_0.21.0_amd64.deb && \
+    rm lsd_0.21.0_amd64.deb
 
 ENV SHELL /bin/zsh
 
