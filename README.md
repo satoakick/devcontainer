@@ -9,7 +9,7 @@ For details about remote container, see [this](https://code.visualstudio.com/doc
 - Execute `git clone`  
   `git clone https://github.com/satoakick1983/devcontainer.git . `  
   Don't forget to add current directory(`.`)!
-- Execute `Reopen in remote container` by vscode 
+- Execute `Reopen in remote container` in vscode 
 
 # dependencies
 - [zsh](https://zsh.sourceforge.io/)
