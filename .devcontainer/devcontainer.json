@@ -9,7 +9,11 @@
     },
     "workspaceFolder": "${localEnv:HOME}",
     "workspaceMount": "source=${localWorkspaceFolder},dst=${localEnv:HOME},type=bind",
-    "postStartCommand": "${localEnv:HOME}/.devcontainer/post_start_command.sh"
-    // "extensions": [],
+    "postStartCommand": "${localEnv:HOME}/.devcontainer/post_start_command.sh",
+    "extensions": [
+      "vscodevim.vim",
+      "shd101wyy.markdown-preview-enhanced",
+      "ms-azuretools.vscode-docker"
+    ]
     // "forwardPorts": [],
 }
