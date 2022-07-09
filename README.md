@@ -7,7 +7,7 @@ For details about remote container, see [this](https://code.visualstudio.com/doc
 - Change directory where you want to locate `.devcontainer`  
   `cd want-to-locate-dot-devcontainer`
 - Execute `git clone`  
-  `git clone https://github.com/satoakick1983/devcontainer.git . `  
+  `git clone https://github.com/satoakick/devcontainer.git . `  
   Don't forget to add current directory(`.`)!
 - Execute `Reopen in remote container` in vscode 
 
